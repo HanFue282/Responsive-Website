@@ -1,3 +1,8 @@
+.navbar-brand {
+    margin-right: auto;
+    padding: .5em;
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -9,4 +14,29 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+h1 {
+    background-color: peachpuff;
+    color: rgb(214, 1, 65);
+}
+
+section {
+    color:black;
+    opacity: 67%;
+    background-color: papayawhip;
+    height: 50%;
+    background-position: left;
+    background-size: initial;
+    text-align: left;
+}
+
+img {
+    float: right;
+    width: 150px;
+    height: 150px;
+    position: right;
+    border-image-width: 5px;
+    border: rgb(212, 0, 106);
+    border-style: dotted;
 }
