@@ -23,20 +23,28 @@ h1 {
 
 section {
     color:black;
-    opacity: 67%;
+    background-blend-mode: soft-light;
     background-color: papayawhip;
-    height: 50%;
-    background-position: left;
-    background-size: initial;
-    text-align: left;
+    z-index: 0;
+    width: 100%;
+    margin: 5px 5px;
+    padding-top: 5px;
+    border-style: solid;
+    border-color: #b49300;
+    border-width: 1px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    word-wrap: break-word;
 }
 
 img {
-    float: right;
     width: 150px;
     height: 150px;
-    position: right;
-    border-image-width: 5px;
     border: rgb(212, 0, 106);
-    border-style: dotted;
+    border-style: dashed;
+}
+
+.profile_pic.jpg {
+    background: black;
+    background-image: pink;
 }
