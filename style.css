@@ -1,15 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body, html {
     height: 100%;
     margin: 0;
 }
 
+header {
+    padding: 20px;
+    background-color: rgba(143, 3, 73, 0.897)
+}
+
+.navbar-nav {
+    padding-top: 15px;
+    margin-right: 5px;
+    float: right;
+    font-size: 20px;
+}
+
+.navbar-dark {
+    background-image: url(autumn-flowers-wallpaper.jpg);
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
 .bg {
     background-image: url("peach_color_palette.png");
-    height: 100%;
     width: 100%;
+    height: 700px;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
+}
+
+.h1 {
+    color: black;
+    background-color: rgb(255, 85, 85);
+    padding: 10px;
+    margin: auto;
 }
 
 h1 {
@@ -43,4 +83,10 @@ h2, h3 {
 p {
     margin-left: 20px;
     line-height: 1.5em;
+}
+
+footer {
+    background-color: brown;
+    width: 100%;
+    height: 15%;
 }
